@@ -19,7 +19,7 @@
 
 ## :dart: About ##
 
-En este proyecto se incorporaron requirimientos de sistema para configurar un administrador de productos utilizando NextJS y Typescript como tecnologías bases. Como parte del proceso se estipularon varias features a incluir dentro del desarrollo y a continuación se enuncian cada una de ellas con sus respectivos detalles, trade offs, consideraciones y siguientes pasos.
+En este proyecto se incorporaron requirimientos de sistema para configurar un administrador de productos utilizando NextJS 14 y Typescript como tecnologías bases. Como parte del proceso se estipularon varias features a incluir dentro del desarrollo y a continuación se enuncian cada una de ellas con sus respectivos detalles, trade offs, consideraciones y siguientes pasos.
 
 ## 🕵️ My Approach ##
 
@@ -92,6 +92,10 @@ $ npm install
 $ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
+
+# Run the project
+$ npm test --coverage
+
 ```
 
 ## :memo: License ##
