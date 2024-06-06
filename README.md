@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  <img alt="Venue Logo" width='50' src="https://multiapoyo.zendesk.com/hc/theming_assets/01HZPB1BNDKDP2S7RYFEZ2FCDD"> Prestalana Technical Assessment
+  <img alt="Prestalana Logo" width='50' src="https://media.licdn.com/dms/image/C4D0BAQFWlyB-kCWU1A/company-logo_200_200/0/1631358339356?e=2147483647&v=beta&t=kf3g5hYC7rx6EUKZjbcdWKEUwFlN96fdQMQSIW16aQM"> Prestalana Technical Assessment
 </h1>
 <!-- <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/tomasperezdev/venue-ta?color=1dbf73">
