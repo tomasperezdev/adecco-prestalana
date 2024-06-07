@@ -62,6 +62,8 @@ En este proyecto se incorporaron requirimientos de sistema para configurar un ad
 
 :heavy_check_mark: Al no contar con una base de datos la autenticación no requiere ningún usuario específico, la implementación de datos correspondientes a un usuario en particular se dejó para futuras implementaciones
 
+:heavy_check_mark: Se identificó un 
+
 ## :rocket: Technologies ##
 
 The following tools were used in this project:

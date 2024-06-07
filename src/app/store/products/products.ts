@@ -1,18 +1,19 @@
 
-import { LocalStorageType } from '@/utils/constants';
+import { CookieType } from '@/utils/constants';
 import { Product } from '@/utils/interfaces';
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
+import { setCookie } from 'cookies-next';
 
 interface ProductsState { 
   favorites: { [key: string]: Product },
 }
 
 const initialState: ProductsState = {
-  favorites: localStorage.getItem(LocalStorageType.FAVORITES) ? JSON.parse( localStorage.getItem(LocalStorageType.FAVORITES)! ) : {},
+  favorites: {},
 }
 
 const setStoredFavorites = ( newFavorites : { [key: string]: Product }) => {
-  localStorage.setItem(LocalStorageType.FAVORITES, JSON.stringify( newFavorites ) );
+  setCookie(CookieType.FAVORITES, JSON.stringify( newFavorites ) );
 }
 
 const productsSlice = createSlice({
